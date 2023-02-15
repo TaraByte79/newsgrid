@@ -1,1 +1,1 @@
-Fiction news media webpage
+Fictional news media webpage
