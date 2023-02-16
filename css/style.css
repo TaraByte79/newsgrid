@@ -289,6 +289,18 @@ h6 {
   grid-column: 2 / span 2;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
@@ -308,11 +320,6 @@ h6 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
 }
-
-/* #main-footer .footer-container > *:last-child {
-  background: #444;
-  grid-column: 1 / span 4;
-} */
 
 .copy {
   background: #444;
